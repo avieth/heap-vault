@@ -20,6 +20,7 @@ library
   exposed-modules:     Data.HeapVault.Pure
                      , Data.HeapVault.Impure
                      , Data.HeapVault
+                     , System.Mem.Weak.Joint
   -- other-modules:       
   other-extensions:    GADTs, PolyKinds, TypeFamilies, ScopedTypeVariables
   build-depends:       base >=4.8 && <4.9, containers >=0.5 && <0.6
